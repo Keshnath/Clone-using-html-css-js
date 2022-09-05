@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>My spotify Clone</title>
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id = "logo"><img src="logo.png"  alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+        <div class="container">
+            <div class="songcontainer">
+
+                <div class="songs" >
+                    <div class="songitems">
+                        <img src="covers/kk.jpg" alt="1">
+                        <span class="songname"></span>
+                        <span class="timestamp">3:52 <i id = "0" class="songitemplay fa-solid fa-play"></i></span>
+                    </div>
+                </div>
+                <div class="songs" >
+                    <div class="songitems">
+                        <img src="covers/kk.jpg" alt="1">
+                        <span class="songname"></span>
+                        <span class="timestamp">4:05 <i id = "1"class="songitemplay fa-solid fa-play"></i></span>
+                    </div>
+                </div>
+                <div class="songs" >
+                    <div class="songitems">
+                        <img src="covers/kk.jpg" alt="1">
+                        <span class="songname"></span>
+                        <span class="timestamp">3:44 <i id = "2" class="songitemplay fa-solid fa-play"></i></span>
+                    </div>
+                </div>
+                <div class="songs" >
+                    <div class="songitems">
+                        <img src="covers/kk.jpg" alt="1">
+                        <span class="songname"></span>
+                        <span class="timestamp">3:56 <i id = "3" class="songitemplay fa-solid fa-play"></i></span>
+                    </div>
+                </div>
+                <div class="songs" >
+                    <div class="songitems">
+                        <img src="covers/kk.jpg" alt="1">
+                        <span class="songname"></span>
+                        <span class="timestamp">4:15 <i id = "4" class="songitemplay fa-solid fa-play"></i></span>
+                    </div>
+                </div>
+
+            </div>
+
+            
+        </div>
+            
+        </div>
+        <div class="bottom">
+            <input type="range" name="range" min="0" max="100" value = "0" id="progressbar">
+            <div class="icons">
+                <!-- <i class="fa-regular fa-play"></i> -->
+                
+                <i class="fa-2x fa-solid fa-backward-step" id="previous"></i>
+                <i class="fa-2x fa-solid fa-play" id="masterplay"></i>
+                <!-- <i class="fa-2x fa-solid fa-pause"></i> -->
+                <i class="fa-2x fa-solid fa-forward-step" id="next"></i>
+            </div>
+            <div class="songinfo">
+                <img src="playing.gif" alt="gif" width="42px" id="gif" >
+                <span id="masterplaysongname">Kesariya</span>
+            </div>
+        </div>
+    </nav>
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/da94f5acad.js" crossorigin="anonymous"></script>
+</html>
